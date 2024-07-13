@@ -59,36 +59,6 @@
       stroke-dashoffset: 0;
       stroke-width: 2px;
     }
-
-    /* Snowfall animation */
-    @keyframes snowfall {
-      0% {
-        transform: translateY(-100%);
-        opacity: 0.8;
-      }
-      100% {
-        transform: translateY(100%);
-        opacity: 0.8;
-      }
-    }
-
-    .snowflake {
-      position: absolute;
-      color: #ffffff;
-      font-size: 1.5em;
-      animation: snowfall linear infinite;
-      animation-duration: 1.5s; /* Adjust this value for faster falling speed */
-      animation-delay: calc(var(--delay) * -1s);
-      z-index: 1; /* Ensure snowflakes appear above the background */
-    }
-
-    .snowflake:nth-child(even) {
-      animation-duration: 2s; /* Adjust for different falling speeds */
-    }
-
-    .snowflake:nth-child(3n) {
-      animation-duration: 2.5s; /* Adjust for different falling speeds */
-    }
   </style>
 
   <!-- Black background rectangle -->
@@ -96,36 +66,4 @@
 
   <!-- Text element -->
   <text x="50%" y="50%">PRIT TALA</text>
-
-  <!-- Snowflakes in spans -->
-  <span style="position: absolute; top: 10%; left: 5%;">
-    <text class="snowflake" style="--delay: 1">❄</text>
-  </span>
-  <span style="position: absolute; top: 20%; left: 15%;">
-    <text class="snowflake" style="--delay: 2">❅</text>
-  </span>
-  <span style="position: absolute; top: 15%; left: 25%;">
-    <text class="snowflake" style="--delay: 3">❄</text>
-  </span>
-  <span style="position: absolute; top: 25%; left: 35%;">
-    <text class="snowflake" style="--delay: 4">❅</text>
-  </span>
-  <span style="position: absolute; top: 30%; left: 45%;">
-    <text class="snowflake" style="--delay: 5">❄</text>
-  </span>
-  <span style="position: absolute; top: 35%; left: 55%;">
-    <text class="snowflake" style="--delay: 6">❅</text>
-  </span>
-  <span style="position: absolute; top: 40%; left: 65%;">
-    <text class="snowflake" style="--delay: 7">❄</text>
-  </span>
-  <span style="position: absolute; top: 45%; left: 75%;">
-    <text class="snowflake" style="--delay: 8">❅</text>
-  </span>
-  <span style="position: absolute; top: 50%; left: 85%;">
-    <text class="snowflake" style="--delay: 9">❄</text>
-  </span>
-  <span style="position: absolute; top: 55%; left: 95%;">
-    <text class="snowflake" style="--delay: 10">❅</text>
-  </span>
 </svg>
