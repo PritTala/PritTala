@@ -2,7 +2,7 @@
   <img style="width:"500px"; src="https://raw.githubusercontent.com/prittala/prittala/master/Name.svg" alt="PritTala" />
 </h1>
 
-<b>Follow X & linkdin for daily update!</b>
+<h3 align="center">At least Blood is better than tears - Angraj Karna ⚔️</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prittala&label=Profile%20views&color=0e75b6&style=flat" alt="prittala" /> </p>
 
