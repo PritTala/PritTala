@@ -21,7 +21,6 @@
 <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=bootstrap" alt="bootstrap" width="40" height="40"/></a>
 <a href="https://jquery.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=jquery" alt="jquery" width="40" height="40"/></a>
 <a href="https://www.w3schools.com/js/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=javascript" alt="javascript" width="40" height="40"/></a>
-<a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=python" alt="python" width="40" height="40"/></a>
 </div>
 <hr>
 <div align="left">
